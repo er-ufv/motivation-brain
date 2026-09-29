@@ -12,3 +12,109 @@
 
 .guided-learning{padding:22px;margin:0 0 30px;border:1px solid #527469;border-radius:14px;background:linear-gradient(140deg,#18312f,#18202e)}
 .guided-learning h2{font-size:1.45rem;margin:8px 0 18px}.guided-learning label{display:block;font-size:.9rem;margin-bottom:8px;color:#d0e5de}.guided-learning select{width:100%;max-width:100%;padding:12px;background:#101923;color:#f0f6fa;border:1px solid #637a89;border-radius:8px;font:inherit}.guided-learning p{font-size:1rem;line-height:1.65}.guided-learning button{white-space:normal;line-height:1.45;font-size:.9rem}.guided-learning .primary{width:100%;margin:4px 0 12px}.journey-nav{display:flex;align-items:center;gap:8px;margin:16px 0}.journey-nav button{min-width:38px;min-height:38px}.journey-nav [aria-current="step"]{background:#b0e5d2;color:#10221c}.journey-nav span{font-size:.875rem;color:#bbcec9;margin-left:auto}.journey-detail{border-top:1px solid #38524f;padding-top:18px}.journey-detail h3{font-size:1.2rem;line-height:1.45}.journey-detail h4{font-size:.95rem;margin:20px 0 6px;color:#b0e5d2}.journey-detail .journey-route{display:flex;flex-wrap:wrap;gap:12px;font-size:1.2rem;font-weight:700}.journey-controls{display:flex;justify-content:space-between;gap:12px;margin:18px 0}.journey-change{border-left:3px solid #e5c87e;padding:2px 14px;margin-top:14px;background:#e5c87e0b}.guided-learning .small-note{font-size:.875rem}.journey-source{font-size:.875rem;color:#b5d9fa;line-height:1.5;display:block}.guided-learning .question button[aria-pressed="true"]{border-color:#b0e5d2;background:#26453e}.guided-learning button:focus-visible,.guided-learning select:focus-visible{outline:3px solid #b0e5d2;outline-offset:3px}@media(max-width:600px){.guided-learning{padding:16px}.journey-nav span{font-size:.8rem}}
+
+/* ===== Mejoras docentes (v2) ===== */
+.case-chooser{display:block}
+.case-chooser .eyebrow{margin:0 0 12px}
+.case-chooser .small-note{margin:12px 0 0}
+.case-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.case-card{display:flex;align-items:center;gap:12px;text-align:left;padding:12px 14px;background:#0f1c2b;border-color:#2c4458;line-height:1.25}
+.case-card b{display:block;font-weight:600;font-size:.86rem;color:#e5eef8}
+.case-card small{display:block;font-size:.66rem;letter-spacing:.8px;color:#8fa4bb;margin-top:4px}
+.case-card.active{background:#1c3a36;border-color:var(--teal)}
+.case-card.active b{color:#c9fbe9}
+.case-icon{font-size:1.7rem;line-height:1;flex:none}
+.process-tabs{display:flex;width:100%;margin:0 0 18px}
+.process-tabs button{flex:1;font-size:.8rem;padding:9px 8px}
+.journey-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:6px 0 14px}
+.journey-cards button{display:flex;align-items:center;gap:9px;text-align:left;font-size:.78rem;padding:9px 10px;line-height:1.25}
+.journey-cards .case-icon{font-size:1.25rem}
+.guided-learning.locked{border:0;padding:0;margin:0;background:none}
+.content-panel .guided-learning:not(.locked){margin-top:28px;padding-top:22px;border-top:1px solid var(--line)}
+.see-network{color:var(--teal);padding:8px 0;margin-top:6px}
+#incentive{right:18px;top:46px;width:190px;background:#0d1a29e6;border:1px solid #3a4f63;border-radius:12px;padding:12px 12px 10px;z-index:3}
+#incentive .badge-icon{display:block;font-size:2.6rem;filter:drop-shadow(0 0 14px #ffc68140)}
+#incentive small{margin:6px 0 8px}
+#incentive .dir{margin:6px 0 0;padding:6px 8px;border-radius:7px;text-align:left;font-size:.7rem;line-height:1.3;opacity:.38;border:1px solid transparent;transition:opacity .3s,border-color .3s}
+#incentive .dir b{display:block;font-size:.66rem;letter-spacing:1px}
+#incentive .dir em{font-style:normal;color:#c8d6e6}
+#incentive .dir.bu b{color:#76e8c7}
+#incentive .dir.td b{color:#85acff}
+#incentive .dir.on{opacity:1}
+#incentive .dir.bu.on{border-color:#76e8c766;background:#76e8c714}
+#incentive .dir.td.on{border-color:#85acff66;background:#85acff14}
+.region-label.focus{font-size:.9rem!important;font-weight:650;padding:7px 12px;border-width:2px;box-shadow:0 0 18px var(--region-color);z-index:2}
+.scenarios{margin:18px 0 6px}
+.scenarios .eyebrow{margin:0 0 8px}
+.panel-help{margin-top:30px;padding:16px 16px 12px;border:1px dashed #33495f;border-radius:10px;background:#0f1a27}
+.panel-help .eyebrow{margin:0 0 6px;color:#9fb3c9;font-size:.68rem}
+.panel-help p{font-size:.84rem!important;margin:0 0 12px}
+.panel-help .help-refs{color:#93a8bf!important;font-size:.78rem!important}
+.help-link{padding:4px 0;font-size:.78rem;color:var(--teal)}
+.references{border-top:1px solid var(--line);padding:18px 0;margin-top:10px}
+.references summary{cursor:pointer;color:#cbd7e6;font-size:.9rem;list-style:none}
+.references summary .eyebrow{display:inline;margin-right:10px}
+.references h3{font-size:.9rem;margin:18px 0 8px;color:#dce6f2}
+.references ul{margin:0;padding-left:18px}
+.references li{font-size:.82rem;color:#aebdce;margin:6px 0;line-height:1.5}
+.references a{color:var(--teal)}
+footer b{color:#a9bbcf;font-weight:600}
+@media(max-width:760px){#incentive{width:150px;right:10px;top:40px;padding:8px}#incentive .badge-icon{font-size:2rem}.journey-cards{grid-template-columns:1fr}.case-cards{grid-template-columns:1fr 1fr}}
+.case-card{min-width:0}.case-card span{min-width:0}.case-card b,.case-card small{overflow-wrap:anywhere}
+@media(max-width:760px){.case-cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.case-card{padding:10px;gap:8px}.case-card small{display:none}.case-icon{font-size:1.4rem}.case-chooser{padding:14px}}
+
+/* ===== v3 · Cuerpo y hormonas ===== */
+.body-entry{--entry-accent:#ff8f8f;width:100%;min-height:0;margin-top:16px;display:grid;grid-template-columns:auto 1fr;column-gap:18px;align-items:center;background:linear-gradient(135deg,#2e1b22,#121c2a);border-color:#6a3f4a}
+.body-entry .entry-icon{grid-row:1/3;margin:0}
+.body-entry .entry-description{margin-top:4px;max-width:none}
+#bodyView{display:none;width:100%;height:100%}
+body[data-mode=body] #bodyView{display:block}
+body[data-mode=body] #canvasHost,body[data-mode=body] #labels,body[data-mode=body] #networkView,body[data-mode=body] .orientation,body[data-mode=body] #anatomyAxes,body[data-mode=body] #incentive,body[data-mode=body] .view-toolbar,body[data-mode=body] #anatomyControls,body[data-mode=body] .model-status,body[data-mode=body] .anatomy-legend,body[data-mode=body] .visual-footer,body[data-mode=body] .dopamine-filter,body[data-mode=body] .connection-key,body[data-mode=body] .layers,body[data-mode=body] #interactionText,body[data-mode=body] #visualLoading{display:none!important}
+body[data-mode=body] #brainViewport{height:780px;padding:10px 0}
+body[data-mode=body] .visual-caption{bottom:8px}
+.silhouette>*{fill:url(#skin);stroke:#2f4a63;stroke-width:1.5}
+.brain-shape{fill:#3a2d45;stroke:#8f78b0;stroke-width:1.2}
+.stem-shape{fill:none;stroke:#8f78b0;stroke-width:6;stroke-linecap:round;opacity:.7}
+.vessel{fill:none;stroke:#c9485b;stroke-width:3;opacity:.55}
+.vagus{fill:none;stroke:#e8d27a;stroke-width:1.5;stroke-dasharray:4 4;opacity:.6}
+.organ{fill:#2b4257;stroke:#6f8aa3;stroke-width:1.2}
+.heart{fill:#6b2d3a}.liver{fill:#5a3a2e}.stomach{fill:#5a4630}.kidney{fill:#4d3140}.adrenal{fill:#7a3b3b}.gut{fill:#4b3b2e}.fat{fill:#6b6130;opacity:.8}.gonad{fill:#4a3d63}.thyroid{fill:#2f5b56}.hypo-dot{fill:#ffa36c}.pit-dot{fill:#ff6b6b}
+.gut-coil{fill:none;stroke:#8e7358;stroke-width:1.2}
+.flow-path{fill:none;stroke-width:3;opacity:.85;stroke-linecap:round;stroke-linejoin:round}
+.flow-feedback{fill:none;stroke-width:1.6;stroke-dasharray:2 5;opacity:.8}
+.flow-dot{filter:drop-shadow(0 0 4px #fff8)}
+.organ-hit{cursor:pointer}
+.organ-hit .leader{stroke:#4b6480;stroke-width:1}
+.organ-hit .dot{fill:#0c1826;stroke:#8fa6bf;stroke-width:1.5}
+.organ-hit text{fill:#a9bbcf;font-size:11px}
+.organ-hit.on .dot{fill:#ffc681;stroke:#fff}
+.organ-hit.on text{fill:#ffe3b8;font-weight:650}
+.organ-hit.on .leader{stroke:#ffc681}
+.organ-hit:hover text,.organ-hit:focus text{fill:#fff}
+.organ-hit:focus{outline:none}
+.svg-note{fill:#7a8da3;font-size:8.5px}
+.hormone-groups{display:grid;gap:10px;margin:0 0 16px}
+.hormone-list{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.hormone-list button{font-size:.76rem;padding:6px 10px;display:flex;align-items:center;gap:6px}
+.hormone-list button i{width:9px;height:9px;border-radius:50%;background:var(--h)}
+.hormone-list button.active{border-color:var(--h);color:#fff;background:#1d2d3f}
+.h-swatch{display:inline-block;width:14px;height:14px;border-radius:50%;margin-right:10px;vertical-align:middle}
+.hormone-chain{list-style:none;padding:0;margin:14px 0;counter-reset:c}
+.hormone-chain li{display:grid;grid-template-columns:118px 1fr;gap:10px;padding:9px 0;border-top:1px solid #22334a;font-size:.86rem;color:#c3d0de}
+.hormone-chain b{color:var(--teal);font-weight:600;font-size:.78rem;letter-spacing:.4px}
+.hormone-link{font-size:.74rem;padding:3px 8px;border-color:var(--h);margin:2px 2px 0 0}
+.organ-card{border:1px solid #6a5a3a;background:#211d16;border-radius:10px;padding:12px 14px;margin:0 0 16px}
+.organ-card h3{margin:2px 0 6px;font-size:1rem}
+.organ-card p{font-size:.84rem!important}
+@media(max-width:760px){body[data-mode=body] #brainViewport{height:620px}.hormone-chain li{grid-template-columns:1fr;gap:2px}}
+.organ-hit text{font-size:14px!important}
+.organ-hit .leader{fill:none}
+.body-note{display:none}
+body[data-mode=body] .body-note{display:block;position:absolute;left:0;right:0;bottom:10px;text-align:center;margin:0;font-size:.72rem;color:#8095ab}
+body[data-mode=body] .visual-caption{display:none}
+.k-blood{color:#c9485b}.k-vagus{color:#e8d27a}.k-fb{color:#ff8f8f}
+body[data-mode=body] #brainViewport{height:760px}
+@media(max-width:760px){body[data-mode=body] #brainViewport{height:470px}.organ-hit text{font-size:17px!important}}
+
+/* Body viewer: confined to the v3 body module. */
+.body-controls{display:none;padding:18px 22px 4px}.body-controls p{margin:9px 0;font-size:.875rem}.body-controls label{font-size:.875rem;display:inline-flex;align-items:center;gap:10px;margin:10px 10px 6px 0}.body-controls select{max-width:100%;background:#152232;border:1px solid #435a6d;color:#e4eff8;padding:9px;border-radius:7px;font:inherit;font-size:.875rem}.body-camera-buttons{display:flex;gap:7px;flex-wrap:wrap}.body-camera-buttons button{font-size:.875rem;min-height:36px}.body-controls input{width:110px}body[data-mode=body] .body-controls{display:block}body[data-mode=body] #brainViewport{height:650px;padding:0 0 58px}#bodyView{position:relative}#bodyCanvas,#bodyLabels,#bodyFallback{position:absolute;inset:0;width:100%;height:100%}#bodyCanvas canvas{display:block;width:100%;height:100%;touch-action:none}#bodyCanvas canvas:focus-visible{outline:2px solid #b0e5d2;outline-offset:-3px}#bodyLabels{pointer-events:none}#bodyLabels svg{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}.body-organ-label{position:absolute;pointer-events:auto;border:1px solid var(--organ-color);background:#101b2beb;color:#eef6fd;font-size:.8rem;padding:5px 8px;max-width:135px;white-space:normal;z-index:2}.body-organ-label[hidden],#bodyFallback[hidden],#bodyCanvas[hidden],#bodyLabels[hidden]{display:none!important}#bodyOrientation{position:absolute;top:9px;left:14px;margin:0;color:#a4b9c9;font-size:.8rem;pointer-events:none}body[data-mode=body] .body-note{bottom:10px;left:18px;right:18px;font-size:.8rem;line-height:1.5}#bodyFlowKey{color:#e9c898;font-size:.85rem;line-height:1.5;min-height:2.5em}@media(max-width:760px){body[data-mode=body] #brainViewport{height:600px;padding-bottom:90px}.body-controls{padding:14px}.body-organ-label{max-width:108px;font-size:.75rem}}
