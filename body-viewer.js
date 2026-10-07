@@ -61,6 +61,7 @@ export function createBodyViewer({state,onSelect,onFailure}) {
  // Reuse the already licensed fsaverage cortex in the head, without claiming whole-body atlas precision.
  fetch('./anatomy/brain.json').then(r=>{if(!r.ok)throw Error('brain');return r.json();}).then(data=>{const replacement=[];for(const side of ['left','right']){const d=data.cortex[side],g=new THREE.BufferGeometry(),p=[];for(let i=0;i<d.positions.length;i+=3)p.push(-d.positions[i+2]*.19,7.03+d.positions[i+1]*.17,-d.positions[i]*.19);g.setAttribute('position',new THREE.Float32BufferAttribute(p,3));g.setIndex(d.indices);g.computeVertexNormals();replacement.push(new THREE.Mesh(g,mats.brain));}for(const old of parts.brain){scene.remove(old);old.geometry.dispose();}parts.brain=replacement;for(const m of replacement){m.userData.organ='brain';scene.add(m);}update();}).catch(()=>{/* The simplified brain remains available if the reference mesh cannot load. */});
 
- reset();update();requestAnimationFrame(animate);
- return {update,reset,setOpacity:value=>{skin.opacity=value;},togglePause:()=>{paused=!paused;return paused;},zoom:factor=>{const offset=camera.position.clone().sub(controls.target);offset.setLength(THREE.MathUtils.clamp(offset.length()*factor,5,22));camera.position.copy(controls.target).add(offset);controls.update();}};
+ function setTheme(){const light=document.documentElement.dataset.theme==='light';skin.color.set(light?0x4a7590:0x91b8c8);floor.material.color.set(light?0x7d93a4:0x284757);}
+ setTheme();reset();update();requestAnimationFrame(animate);
+ return {update,reset,setTheme,setOpacity:value=>{skin.opacity=value;},togglePause:()=>{paused=!paused;return paused;},zoom:factor=>{const offset=camera.position.clone().sub(controls.target);offset.setLength(THREE.MathUtils.clamp(offset.length()*factor,5,22));camera.position.copy(controls.target).add(offset);controls.update();}};
 }

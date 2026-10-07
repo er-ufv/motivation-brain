@@ -74,4 +74,5 @@ export const edges=[
  ['amyg','insula','up','other','Relevancia emocional y estado corporal se integran entre amígdala e ínsula.'],
  ['insula','vmpfc','cortical','other','La ínsula aporta información interoceptiva a la valoración de la vmPFC.']
 ];
-export const edgeColor=e=>e[3]==='da'?'#ffd16a':e[3]==='indirect'?'#aab8c9':e[2]==='down'?'#85acff':e[2]==='up'?'#76e8c7':'#c9b4dc';
+const edgePalettes={dark:{da:'#ffd16a',indirect:'#aab8c9',down:'#85acff',up:'#76e8c7',other:'#c9b4dc'},light:{da:'#c08a00',indirect:'#5f6f80',down:'#2d63d4',up:'#0f8f70',other:'#8a5cb8'}};
+export const edgeColor=e=>{const p=edgePalettes[document.documentElement.dataset.theme==='light'?'light':'dark'];return e[3]==='da'?p.da:e[3]==='indirect'?p.indirect:e[2]==='down'?p.down:e[2]==='up'?p.up:p.other;};

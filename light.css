@@ -1,0 +1,255 @@
+/* Tema claro (proyección). Generado desde styles.css invirtiendo la luminosidad de cada color; los ajustes manuales están al final. */
+:root[data-theme="light"]{color:#161e2b;background:#f1f3f7;--muted:#3d4b5d;--line:#b9c4d6;--teal:#18906d;--blue:#0036a8;--surface:#eceff3;--amber:#a85c00}
+:root[data-theme="light"] button{border-color:var(--line)}
+:root[data-theme="light"] button:hover{background:#e2e7ec;border-color:#6e86a1}
+:root[data-theme="light"] button.active{color:var(--teal);background:#e7edeb;border-color:#6aa492}
+:root[data-theme="light"] button:focus-visible,:root[data-theme="light"] a:focus-visible,:root[data-theme="light"] input:focus-visible,:root[data-theme="light"] select:focus-visible,:root[data-theme="light"] summary:focus-visible{outline-color:var(--teal)}
+:root[data-theme="light"] a{color:var(--teal)}
+:root[data-theme="light"] header{border-bottom-color:var(--line)}
+:root[data-theme="light"] .brand{color:#121212}
+:root[data-theme="light"] .brand small{color:var(--muted)}
+:root[data-theme="light"] .brand-icon{background:var(--teal);color:#eef2f4}
+:root[data-theme="light"] .course{color:var(--muted)}
+:root[data-theme="light"] .course span{color:#9cacc0}
+:root[data-theme="light"] .quiet{border-color:currentColor;color:#2a3a4e}
+:root[data-theme="light"] .main-nav{border-bottom-color:var(--line)}
+:root[data-theme="light"] .main-nav button{border-color:currentColor;border-bottom-color:transparent;color:#5a697e}
+:root[data-theme="light"] .main-nav button span{color:#2b3748}
+:root[data-theme="light"] .main-nav button.active{border-color:var(--teal);color:var(--teal)}
+:root[data-theme="light"] .main-nav button.active span{color:#121212}
+:root[data-theme="light"] .eyebrow{color:var(--teal)}
+:root[data-theme="light"] .heading p:not(.eyebrow){color:var(--muted)}
+:root[data-theme="light"] .concept-badge{border-color:var(--line);color:var(--muted)}
+:root[data-theme="light"] .concept-badge span{color:var(--teal)}
+:root[data-theme="light"] .laboratory{border-color:var(--line);background:var(--surface)}
+:root[data-theme="light"] .visual-panel{background:radial-gradient(ellipse at 47% 40%,#e7ecf0 0,#ecf0f3 55%,#eef1f5 100%)}
+:root[data-theme="light"] .segmented{background:#f0f3f7;border-color:#b4c5d8}
+:root[data-theme="light"] .segmented button{border-color:currentColor;color:#3f5163}
+:root[data-theme="light"] .segmented button.active{color:#0050a8;background:#dfe3e7}
+:root[data-theme="light"] .region-label{border-color:#7e8fa380;background:#ebeff4e8;color:#1c2c3f}
+:root[data-theme="light"] .region-label.active{border-color:var(--teal);color:#0d9b6e;background:#e8f2f0ec}
+:root[data-theme="light"] .orientation{color:#6a7b91}
+:root[data-theme="light"] .visual-caption{color:#1c2c41}
+:root[data-theme="light"] .visual-caption small{color:#506277}
+:root[data-theme="light"] .visual-footer{border-top-color:#b4c6da}
+:root[data-theme="light"] .legend{color:#354457}
+:root[data-theme="light"] .bottom-up{background:var(--teal)}
+:root[data-theme="light"] .top-down{background:var(--blue)}
+:root[data-theme="light"] .layers{border-top-color:#b4c6da;color:#2d3d4e}
+:root[data-theme="light"] .layers summary span{color:var(--teal)}
+:root[data-theme="light"] input[type=checkbox],:root[data-theme="light"] input[type=range]{accent-color:var(--teal)}
+:root[data-theme="light"] .interaction-note{color:#283949}
+:root[data-theme="light"] .content-panel{border-left-color:var(--line);background:#ebeef2}
+:root[data-theme="light"] .panel-top .eyebrow{color:var(--muted)}
+:root[data-theme="light"] .step-count{color:#4c5e75}
+:root[data-theme="light"] .stage-category{color:var(--teal)}
+:root[data-theme="light"] .content-panel p{color:#2a3748}
+:root[data-theme="light"] .chip{border-color:#a0c0bb;color:#238663;background:#e9efee}
+:root[data-theme="light"] .insight{border-left-color:var(--teal)}
+:root[data-theme="light"] .insight .eyebrow{color:var(--teal)}
+:root[data-theme="light"] .network-reminder{color:#3c536b!important}
+:root[data-theme="light"] .signal-mini{border-top-color:var(--line);color:#344965}
+:root[data-theme="light"] .bars i{background:#e0e6e8}
+:root[data-theme="light"] .bars i.on{background:var(--teal)}
+:root[data-theme="light"] .timeline-panel{background:#edf0f4;border-color:var(--line)}
+:root[data-theme="light"] .timeline-heading .eyebrow{color:#37475b}
+:root[data-theme="light"] .primary{background:var(--teal);color:#edf4f1;border-color:var(--teal)}
+:root[data-theme="light"] .primary:hover{color:##121212}
+:root[data-theme="light"] .playback label{color:#3b4a5e}
+:root[data-theme="light"] .playback select{background:#e7ebf0;border-color:var(--line);color:#264f83}
+:root[data-theme="light"] .timeline button{border-color:currentColor;color:#334458}
+:root[data-theme="light"] .timeline button span{color:#647c97}
+:root[data-theme="light"] .timeline button.active{background:#e7edeb;color:#00a867}
+:root[data-theme="light"] .timeline button.active span{color:var(--teal)}
+:root[data-theme="light"] .progress-track{background:#e1e5ea}
+:root[data-theme="light"] .progress-track div{background:var(--teal)}
+:root[data-theme="light"] .three-levels article{border-left-color:var(--line)}
+:root[data-theme="light"] .three-levels .eyebrow{color:#475970}
+:root[data-theme="light"] .three-levels article>span{color:#3e566f}
+:root[data-theme="light"] .three-levels p{color:#394c61}
+:root[data-theme="light"] .levels-intro>p:last-child{color:var(--teal)}
+:root[data-theme="light"] .disclaimer{border-top-color:var(--line);color:#435367}
+:root[data-theme="light"] footer{color:#60758e;border-top-color:#c1cbd7}
+:root[data-theme="light"] footer span span{color:#9cafc3}
+:root[data-theme="light"] .range-label output{color:var(--teal)}
+:root[data-theme="light"] .range-extremes{color:#4c6077}
+:root[data-theme="light"] .metric{background:#eff2f5;border-color:#b4c3d6}
+:root[data-theme="light"] .metric strong{color:var(--teal)}
+:root[data-theme="light"] .metric.pink strong{color:#8e1b4e}
+:root[data-theme="light"] .meter{background:#e1e4e9}
+:root[data-theme="light"] .meter i{background:var(--teal)}
+:root[data-theme="light"] .pink .meter i{background:#8e1b4e}
+:root[data-theme="light"] .small-note{color:#3d5167!important}
+:root[data-theme="light"] .counterfactual{border-top-color:var(--line)}
+:root[data-theme="light"] .question{border-color:#8eaca1;background:#ebf2f1}
+:root[data-theme="light"] .question button{border-color:#a6c3ba;background:#eaf1f0}
+:root[data-theme="light"] .decision button{border-color:#7f9e91}
+:root[data-theme="light"] .recap{background:#ebf2f1;border-color:#a4cbc0}
+:root[data-theme="light"] .recap h3{color:var(--teal)}
+:root[data-theme="light"] .recap p{color:#2d433c}
+:root[data-theme="light"] .recap>p:last-child{border-top-color:#a4cbc0}
+:root[data-theme="light"] .myth-claim{color:#a85400}
+:root[data-theme="light"] .myth-claim.busted{color:#515c6b}
+:root[data-theme="light"] .myth-explanation h3{color:var(--teal)}
+:root[data-theme="light"] #incentive span{filter:drop-shadow(0 0 15px #a85c0030)}
+:root[data-theme="light"] #incentive small{color:var(--amber)}
+:root[data-theme="light"] #visualLoading{color:#3f5969}
+:root[data-theme="light"] dialog{border-color:#7590ad;background:#e9edf1;color:#1d4d8b}
+:root[data-theme="light"] dialog::backdrop{background:#f3f6f9ba}
+:root[data-theme="light"] dialog p,:root[data-theme="light"] dialog li{color:#22364d}
+:root[data-theme="light"] dialog h3{color:var(--teal)}
+:root[data-theme="light"] .skip{background:#ebf3f2}
+:root[data-theme="light"] .map-label{fill:#174992}
+:root[data-theme="light"] .map-sub{fill:#3b536d}
+:root[data-theme="light"] .map-node:focus{outline-color:currentColor}
+:root[data-theme="light"] .map-node:focus rect{stroke:#121212}
+:root[data-theme="light"] .effort-track{background:#eff2f5}
+:root[data-theme="light"] .effort-track span{color:#2d4258}
+:root[data-theme="light"] .conflict{background:#eff2f5;color:#294159}
+:root[data-theme="light"] .conflict b{color:var(--teal)}
+:root[data-theme="light"] .pfc-meter{background:var(--blue)!important}
+@media (max-width:760px){:root[data-theme="light"] .content-panel{border-left-color:currentColor;border-top-color:var(--line)}:root[data-theme="light"] .three-levels article:nth-child(3){border-left-color:currentColor}}
+:root[data-theme="light"] .entry-card{border-color:#a4b7cb;background:linear-gradient(135deg,#e8ecf0,#eceff3);color:#274f81;--entry-accent:#003ba8}
+:root[data-theme="light"] .entry-description{color:#27394d}
+:root[data-theme="light"] .entry-arrow{color:var(--entry-accent)}
+:root[data-theme="light"] .entry-card:hover{border-color:var(--entry-accent);background:#e4e9ee}
+:root[data-theme="light"] .entry-card:focus-visible{outline-color:var(--entry-accent)}
+:root[data-theme="light"] .process-entry{--entry-accent:#18906d;background:linear-gradient(135deg,#e9f0ef,#ecf0f3);border-color:#8eb8aa}
+:root[data-theme="light"] .reward-entry{--entry-accent:#a85c00}
+:root[data-theme="light"] .experiment-entry{--entry-accent:#4700a8}
+:root[data-theme="light"] .myth-entry{border-color:#658398;background:#eaedf2}
+:root[data-theme="light"] .myth-entry span{color:var(--teal)}
+:root[data-theme="light"] .case-chooser{background:#e9edf2;border-color:#98b5ca}
+:root[data-theme="light"] .case-chooser label{color:var(--teal)}
+:root[data-theme="light"] select{background:#e3e8ed;border-color:#7190ac;color:#0041a8}
+:root[data-theme="light"] .case-chooser p{color:#263a4d}
+:root[data-theme="light"] .anatomy-controls label{color:#243445}
+:root[data-theme="light"] .model-status{color:#24384a;background:#ebeff3;border-top-color:#acbfd1}
+:root[data-theme="light"] .region-label,:root[data-theme="light"] .region-label.active{background:#e9eef2ec;color:var(--region-color);border-color:var(--region-color)}
+:root[data-theme="light"] .chip{color:var(--region-color);border-color:var(--region-color);background:#e8edf1}
+:root[data-theme="light"] .chip:hover{background:#e0e5ea}
+:root[data-theme="light"] .anatomy-legend,:root[data-theme="light"] .connection-key{border-top-color:#b0c5d7}
+:root[data-theme="light"] .anatomy-legend summary,:root[data-theme="light"] .connection-key summary{color:#285381}
+:root[data-theme="light"] .anatomy-legend p,:root[data-theme="light"] .connection-key p{color:#2f4154}
+:root[data-theme="light"] #familyLegend{color:#243545}
+:root[data-theme="light"] .indirect-line{background:repeating-linear-gradient(90deg,#364456 0 4px,transparent 4px 6px)!important}
+:root[data-theme="light"] .dopamine-filter{border-top-color:#b0c5d7}
+:root[data-theme="light"] .connection-key ul{color:#2a3e50}
+:root[data-theme="light"] #anatomyAxes text{fill:#263a50}
+:root[data-theme="light"] .tree-family{border-left-color:var(--region-color)}
+:root[data-theme="light"] .tree-family strong{color:var(--region-color)}
+:root[data-theme="light"] .tree-family button.active{border-color:var(--region-color);color:var(--region-color);background:#e1e6eb}
+:root[data-theme="light"] .hierarchy-path{border-left-color:var(--region-color);background:#e6ebef;color:var(--region-color)!important}
+:root[data-theme="light"] .representation,:root[data-theme="light"] .anatomy-caution{background:#e6ebef}
+:root[data-theme="light"] .anatomy-caution{border-color:#748199}
+:root[data-theme="light"] .evidence{border-top-color:#a1b4c8}
+:root[data-theme="light"] .evidence summary{color:#248469}
+:root[data-theme="light"] .prediction{border-color:#a69d87;background:#e9edf1}
+:root[data-theme="light"] .prediction svg text{fill:#283c52}
+:root[data-theme="light"] .prediction strong{color:#a87400}
+:root[data-theme="light"] .anatomy-caution b,:root[data-theme="light"] .representation b{color:#234e86}
+:root[data-theme="light"] .guided-learning{border-color:#7ca296;background:linear-gradient(140deg,#e9f0ef,#eaecf0)}
+:root[data-theme="light"] .guided-learning label{color:#203a32}
+:root[data-theme="light"] .guided-learning select{background:#eef1f4;color:#0d1c26;border-color:#8096a3}
+:root[data-theme="light"] .journey-nav [aria-current="step"]{background:#2a7f60;color:#eef4f2}
+:root[data-theme="light"] .journey-nav span{color:#344842}
+:root[data-theme="light"] .journey-detail{border-top-color:#afc8c5}
+:root[data-theme="light"] .journey-detail h4{color:#2a7f60}
+:root[data-theme="light"] .journey-change{border-left-color:#8c6d1c;background:#8c6d1c0b}
+:root[data-theme="light"] .journey-source{color:#0b579e}
+:root[data-theme="light"] .guided-learning .question button[aria-pressed="true"]{border-color:#2a7f60;background:#e2eae8}
+:root[data-theme="light"] .guided-learning button:focus-visible,:root[data-theme="light"] .guided-learning select:focus-visible{outline-color:#2a7f60}
+:root[data-theme="light"] .case-card{background:#ebeff4;border-color:#abc2d5}
+:root[data-theme="light"] .case-card b{color:#245285}
+:root[data-theme="light"] .case-card small{color:#40546a}
+:root[data-theme="light"] .case-card.active{background:#e6eeed;border-color:var(--teal)}
+:root[data-theme="light"] .case-card.active b{color:#0c9d68}
+:root[data-theme="light"] .guided-learning.locked{border-color:currentColor}
+:root[data-theme="light"] .content-panel .guided-learning:not(.locked){border-top-color:var(--line)}
+:root[data-theme="light"] .see-network{color:var(--teal)}
+:root[data-theme="light"] #incentive{background:#ecf0f5e6;border-color:#98aec3}
+:root[data-theme="light"] #incentive .badge-icon{filter:drop-shadow(0 0 14px #a85c0040)}
+:root[data-theme="light"] #incentive .dir{border-color:transparent}
+:root[data-theme="light"] #incentive .dir em{color:#1e2f42}
+:root[data-theme="light"] #incentive .dir.bu b{color:#18906d}
+:root[data-theme="light"] #incentive .dir.td b{color:#0036a8}
+:root[data-theme="light"] #incentive .dir.bu.on{border-color:#18906d66;background:#18906d14}
+:root[data-theme="light"] #incentive .dir.td.on{border-color:#0036a866;background:#0036a814}
+:root[data-theme="light"] .panel-help{border-color:#9fb5cc;background:#edf0f4}
+:root[data-theme="light"] .panel-help .eyebrow{color:#35495f}
+:root[data-theme="light"] .panel-help .help-refs{color:#3d5167!important}
+:root[data-theme="light"] .help-link{color:var(--teal)}
+:root[data-theme="light"] .references{border-top-color:var(--line)}
+:root[data-theme="light"] .references summary{color:#1e2d3f}
+:root[data-theme="light"] .references h3{color:#132234}
+:root[data-theme="light"] .references li{color:#324253}
+:root[data-theme="light"] .references a{color:var(--teal)}
+:root[data-theme="light"] footer b{color:#314357}
+:root[data-theme="light"] .body-entry{--entry-accent:#a80000;background:linear-gradient(135deg,#efeaec,#eceff3);border-color:#bc8e99}
+:root[data-theme="light"] .silhouette>*{stroke:#9bb6d0}
+:root[data-theme="light"] .brain-shape{fill:#e5e1e7;stroke:#614b80}
+:root[data-theme="light"] .stem-shape{stroke:#614b80}
+:root[data-theme="light"] .vessel{stroke:#b73649}
+:root[data-theme="light"] .vagus{stroke:#8f7819}
+:root[data-theme="light"] .organ{fill:#dae0e6;stroke:#5c7790}
+:root[data-theme="light"] .heart{fill:#dac5c9}
+:root[data-theme="light"] .liver{fill:#e2d9d5}
+:root[data-theme="light"] .stomach{fill:#e0dad4}
+:root[data-theme="light"] .kidney{fill:#e6dee2}
+:root[data-theme="light"] .adrenal{fill:#d2a2a2}
+:root[data-theme="light"] .gut{fill:#e7e3df}
+:root[data-theme="light"] .fat{fill:#d8d4c3}
+:root[data-theme="light"] .gonad{fill:#c6bdd6}
+:root[data-theme="light"] .thyroid{fill:#d3e0df}
+:root[data-theme="light"] .hypo-dot{fill:#a83f00}
+:root[data-theme="light"] .pit-dot{fill:#a80000}
+:root[data-theme="light"] .gut-coil{stroke:#af967e}
+:root[data-theme="light"] .flow-dot{filter:drop-shadow(0 0 4px #12121288)}
+:root[data-theme="light"] .organ-hit .leader{stroke:#6d8aaa}
+:root[data-theme="light"] .organ-hit .dot{fill:#edf1f5;stroke:#3d536b}
+:root[data-theme="light"] .organ-hit text{fill:#314357}
+:root[data-theme="light"] .organ-hit.on .dot{fill:#a85c00;stroke:#121212}
+:root[data-theme="light"] .organ-hit.on text{fill:#a86600}
+:root[data-theme="light"] .organ-hit.on .leader{stroke:#a85c00}
+:root[data-theme="light"] .organ-hit:hover text,:root[data-theme="light"] .organ-hit:focus text{fill:#121212}
+:root[data-theme="light"] .organ-hit:focus{outline-color:currentColor}
+:root[data-theme="light"] .svg-note{fill:#5a6c82}
+:root[data-theme="light"] .hormone-list button i{background:var(--h)}
+:root[data-theme="light"] .hormone-list button.active{border-color:var(--h);color:#121212;background:#e4e9ed}
+:root[data-theme="light"] .hormone-chain li{border-top-color:#b2c4dc;color:#253444}
+:root[data-theme="light"] .hormone-chain b{color:var(--teal)}
+:root[data-theme="light"] .hormone-link{border-color:var(--h)}
+:root[data-theme="light"] .organ-card{border-color:#c2b18f;background:#f2f1ef}
+:root[data-theme="light"] body[data-mode=body] .body-note{color:#4f6378}
+:root[data-theme="light"] .k-blood{color:#b73649}
+:root[data-theme="light"] .k-vagus{color:#8f7819}
+:root[data-theme="light"] .k-fb{color:#a80000}
+:root[data-theme="light"] .body-controls select{background:#e9edf1;border-color:#89a2b6;color:#235986}
+:root[data-theme="light"] #bodyCanvas canvas:focus-visible{outline-color:#2a7f60}
+:root[data-theme="light"] .body-organ-label{border-color:var(--organ-color);background:#ebeff3eb;color:#125997}
+:root[data-theme="light"] #bodyOrientation{color:#364b5b}
+:root[data-theme="light"] #bodyFlowKey{color:#8b5e1e}
+:root[data-theme="light"] .theme-icon{color:var(--teal)}
+:root[data-theme="light"] .legend .dopamine-line{background:#a87400}
+:root[data-theme="light"] .mini-case{border-color:var(--line)}
+:root[data-theme="light"] .mini-case.active{color:var(--teal);border-color:var(--teal)}
+:root[data-theme="light"] .timeline-hint{color:var(--muted)}
+
+/* ---- Ajustes manuales del tema claro ---- */
+:root[data-theme="light"]{color-scheme:light;background:#f4f6f9}
+:root[data-theme="dark"]{color-scheme:dark}
+:root[data-theme="light"] body{background:#f4f6f9}
+:root[data-theme="light"] .legend .dopamine-line{background:#c08a00}
+:root[data-theme="light"] body[data-mode="process"] .timeline-panel{box-shadow:0 10px 24px -16px #5a6b8040}
+/* Visor: gris claro para que destaquen las estructuras de color al proyectar */
+:root[data-theme="light"] .visual-panel{background:radial-gradient(ellipse at 47% 40%,#eef2f6 0,#e2e8ee 60%,#d9e0e8 100%)}
+/* Colores de región como texto: versión oscurecida para mantener contraste sobre fondo claro */
+:root[data-theme="light"] .region-label,:root[data-theme="light"] .region-label.active,:root[data-theme="light"] .chip,:root[data-theme="light"] .tree-family strong,:root[data-theme="light"] .tree-family button.active,:root[data-theme="light"] .hierarchy-path{color:color-mix(in srgb,var(--region-color) 50%,#000)!important;border-color:color-mix(in srgb,var(--region-color) 75%,#000)}
+:root[data-theme="light"] .region-label,:root[data-theme="light"] .region-label.active{background:#ffffffee}
+:root[data-theme="light"] .region-label.focus{box-shadow:0 0 14px color-mix(in srgb,var(--region-color) 70%,transparent)}
+/* Red funcional y SVG: atributos de presentación oscuros adaptados al fondo claro */
+:root[data-theme="light"] #networkView .map-node rect{fill:#ffffff}
+:root[data-theme="light"] .map-label{fill:#1d2b3c}
+:root[data-theme="light"] #anatomyAxes line{stroke:#5f7186}
+:root[data-theme="light"] #bodyFallback radialGradient stop:first-child{stop-color:#e9eef3}
+:root[data-theme="light"] #bodyFallback radialGradient stop:last-child{stop-color:#d5dde6}
